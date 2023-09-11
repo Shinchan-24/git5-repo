@@ -2,7 +2,7 @@
 $githubToken = "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"
 
 # Define the repository name
-$repoName = "my-repo"
+$repoName = "hello-repo"
 
 # Define the GitHub username or organization where you want to create the repository
 $githubUsernameOrOrg = "Shinchan-24"
@@ -33,6 +33,8 @@ copy-item -Path "C:\tibco\skeleton" -Destination "C:\tibco\git-repo" -Recurse
 # Add and commit some files
 git add .
 git commit -m "Initial commit"
+
+git remote remove origin
 
 # Set the remote origin to the GitHub repository
 git remote add origin $repoUrl
