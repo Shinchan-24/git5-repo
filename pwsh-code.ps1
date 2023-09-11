@@ -35,7 +35,7 @@ git add .
 git commit -m "Initial commit"
 
 # Set the remote origin to the GitHub repository
-git remote set-url origin $repoUrl
+git remote add origin $repoUrl
 
 # Push the committed changes to GitHub
 git push -u origin master
