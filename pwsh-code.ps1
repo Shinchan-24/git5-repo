@@ -2,7 +2,7 @@
 $githubToken = "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"
 
 # Define the repository name
-$repoName = "hello-repo"
+$repoName = "new-hello-repo"
 
 # Define the GitHub username or organization where you want to create the repository
 $githubUsernameOrOrg = "Shinchan-24"
