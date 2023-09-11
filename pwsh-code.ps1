@@ -2,12 +2,12 @@
 $githubToken = "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"
 
 # Define the repository name
-$repoName = "Tibco-aws-repo"
+$repoName = "new-repo"
 
 # Define the GitHub username or organization where you want to create the repository
 $githubUsernameOrOrg = "Shinchan-24"
 
-$repodir = "C:\TIBCO\git-repo"
+$repodir = "C:\BMO\git-repo"
 
 # Create the new repository on GitHub using the GitHub API with the personal access token
 $uri = "https://api.github.com/user/repos"
@@ -28,7 +28,7 @@ Write-Host "Repository created: $repoUrl"
 # Initialize a Git repository locally
 git init
 
-copy-item -Path "C:\BMO\skeleton" -Destination "C:\TIBCO\git-repo" -PassThru
+copy-item -Path "C:\BMO\skeleton" -Destination "C:\BMO\git-repo" -PassThru
 
 # Add and commit some files
 git add .
