@@ -1,5 +1,5 @@
 # Define your GitHub personal access token
-$githubToken = "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"
+$githubToken = "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"
 
 # Define the repository name
 $repoName = "new-repo"
