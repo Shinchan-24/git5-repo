@@ -7,7 +7,7 @@ $repoName = "test-repo"
 # Define the GitHub username or organization where you want to create the repository
 $githubUsernameOrOrg = "Shinchan-24"
 
-$repodir = "C:\BMO\git-repo"
+$repodir = "C:\tibco\git-repo"
 
 # Create the new repository on GitHub using the GitHub API with the personal access token
 $uri = "https://api.github.com/user/repos"
@@ -28,7 +28,7 @@ Write-Host "Repository created: $repoUrl"
 # Initialize a Git repository locally
 git init
 
-copy-item -Path "C:\BMO\skeleton" -Destination "C:\BMO\git-repo" -Recurse
+copy-item -Path "C:\tibco\skeleton" -Destination "C:\tibco\git-repo" -Recurse
 
 # Add and commit some files
 git add .
