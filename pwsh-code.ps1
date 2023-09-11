@@ -1,8 +1,8 @@
 # Define your GitHub personal access token
-$githubToken = "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"
+$githubToken = "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"
 
 # Define the repository name
-$repoName = "new-hello-repo"
+$repoName = "bmorepo"
 
 # Define the GitHub username or organization where you want to create the repository
 $githubUsernameOrOrg = "Shinchan-24"
@@ -28,7 +28,7 @@ Write-Host "Repository created: $repoUrl"
 # Initialize a Git repository locally
 git init
 
-copy-item -Path "C:\tibco\skeleton" -Destination "C:\tibco\git-repo" -Recurse
+copy-item -Path "C:\BMO\skeleton" -Destination "C:\BMO\git-repo" -Recurse
 
 # Add and commit some files
 git add .
