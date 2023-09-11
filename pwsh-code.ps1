@@ -34,12 +34,6 @@ copy-item -Path "C:\tibco\skeleton" -Destination "C:\tibco\git-repo" -Recurse
 git add .
 git commit -m "Initial commit"
 
-# Check if the 'origin' remote already exists
-if (git remote | Select-String -Pattern '^origin$') {
-    # Remove the existing 'origin' remote
-    git remote remove origin
-}
-
 
 # Set the remote origin to the GitHub repository
 git remote add origin $repoUrl
