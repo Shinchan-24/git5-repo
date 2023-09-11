@@ -2,7 +2,7 @@
 $githubToken = "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"
 
 # Define the repository name
-$repoName = "test-repo"
+$repoName = "my-repo"
 
 # Define the GitHub username or organization where you want to create the repository
 $githubUsernameOrOrg = "Shinchan-24"
