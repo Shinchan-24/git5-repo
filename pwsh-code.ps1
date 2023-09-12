@@ -1,5 +1,5 @@
 # Define your GitHub personal access token
-$githubToken = "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"
+$githubToken = "ghp_pzadMinVxFK57YY2iLQwYpPvA"
 
 # Define the repository name
 $repoName = "git4-repo"
@@ -38,6 +38,8 @@ git commit -m "Initial commit"
 
 # Set the remote origin to the GitHub repository
 git remote add origin $repoUrl
+
+git remote set-url origin $repoUrl
 
 # Push the committed changes to GitHub
 git push -u origin master
