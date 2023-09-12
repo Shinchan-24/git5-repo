@@ -34,7 +34,7 @@ copy-item -Path "C:\BMO\skeleton" -Destination "C:\BMO\git-repo" -Recurse -Force
 git add .
 git commit -m "Initial commit"
 
-# git remote remove origin
+git remote remove origin
 
 # Set the remote origin to the GitHub repository
 git remote add origin $repoUrl
