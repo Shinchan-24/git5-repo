@@ -1,5 +1,5 @@
 # Define your GitHub personal access token
-$githubToken = "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"
+$githubToken = "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"
 
 # Define the repository name
 $repoName = "bmorepo"
