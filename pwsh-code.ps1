@@ -1,8 +1,8 @@
 # Define your GitHub personal access token
-$githubToken = "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"
+$githubToken = "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"
 
 # Define the repository name
-$repoName = "git4-repo"
+$repoName = "git5-repo"
 
 # Define the GitHub username or organization where you want to create the repository
 $githubUsernameOrOrg = "Shinchan-24"
