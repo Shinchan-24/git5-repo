@@ -28,7 +28,7 @@ Write-Host "Repository created: $repoUrl"
 # Initialize a Git repository locally
 git init
 
-copy-item -Path "C:\BMO\skeleton" -Destination "C:\BMO\git-repo" -Recurse
+copy-item -Path "C:\BMO\skeleton" -Destination "C:\BMO\git-repo" -Recurse -Force
 
 # Add and commit some files
 git add .
