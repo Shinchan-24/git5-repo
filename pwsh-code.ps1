@@ -7,7 +7,7 @@ $repoName = "bmorepo"
 # Define the GitHub username or organization where you want to create the repository
 $githubUsernameOrOrg = "Shinchan-24"
 
-$repodir = "C:\tibco\git-repo"
+$repodir = "C:\BMO\git-repo"
 
 # Create the new repository on GitHub using the GitHub API with the personal access token
 $uri = "https://api.github.com/user/repos"
@@ -34,6 +34,7 @@ copy-item -Path "C:\BMO\skeleton" -Destination "C:\BMO\git-repo" -Recurse
 git add .
 git commit -m "Initial commit"
 
+git remote remove origin
 
 # Set the remote origin to the GitHub repository
 git remote add origin $repoUrl
