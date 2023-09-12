@@ -2,7 +2,7 @@
 $githubToken = "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"
 
 # Define the repository name
-$repoName = "git-repo"
+$repoName = "git2-repo"
 
 # Define the GitHub username or organization where you want to create the repository
 $githubUsernameOrOrg = "Shinchan-24"
@@ -34,7 +34,7 @@ copy-item -Path "C:\BMO\skeleton" -Destination "C:\BMO\git-repo" -Recurse -Force
 git add .
 git commit -m "Initial commit"
 
-# git remote remove origin
+git remote remove origin
 
 # Set the remote origin to the GitHub repository
 git remote add origin $repoUrl
